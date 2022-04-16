@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.all-parent{
+    width: 336px;
+    height: 420px;
+    margin: auto;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.yellow{
+    background-color: #FFDC40;
+    margin: auto;
+    width: 150%;
+    height: 28px;
+    border-radius: 10px;
+    margin-left: -10%;
+}
+
+
+
+.delete-image{
+    border-radius: 50%;
+}
+.delete-image:hover{
+    background-color: #833AE0;
+    transition: 0.4s;
+}
+
+
+
+
+.todo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sortdown,
+.sortdown-hover,
+.sortup,
+.sortup-hover{
+   width: 100%;
+   height: 100%;
+}
+
+.sortdown-hover{ 
+    display: none;
+}
+
+.sortdown{
+    display: block;
+}
+
+.sortup{
+    display: none;
+}
+.sortup-hover{
+    display: none;
+}
+
+.sort-elements{
+    width: 25px;
+    height: 15px;
+    margin-left: 83.63%;
+}
+
+
+.sort-elements:hover .sortdown-hover{
+    display: block;
+
+}
+.sort-elements:hover .sortdown{
+    display: none; 
+}
+
+
+
+
+.tip{ 
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-left: 28px;
+}
+
+.list-frame{
+    width:  286px;
+    height: 200px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 8px;
+    overflow: auto;
+}
+
+.add-parent-parent{
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.add-parent{
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;
+    border-radius: 71px;
+    margin-top: 18px;
+    position: relative;
+    left: 27%;
+    
+}
+
+.add-text{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.circle{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 38px;
+    height: 38px;
+    background-color: #9953F1;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    align-self: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.add-parent:hover{
+    background-color: rgb(80, 50, 225);
+    transition: 0.4s;
+}
+.add-parent:hover .circle{
+    background-color: rgb(103, 83, 241);
+    transition: 0.4s;
+}
+
+.plus{
+    position: absolute;
+    left: 14px;
+}
+
+
+
+
+
+.all-parent-2{
+    background-color: white;
+    display: none;
+    width: 336px;
+    height: 255px;
+    margin: auto;
+    border: 3px solid #C4C4C4;
+    box-shadow: 3px 3px 3px #C4C4C4;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+#mydivheader{
+    background-color: #FFDC40;
+    margin: auto;
+    width: 120%;
+    height: 28px;
+    border-radius: 10px;
+    margin-left: -10%;
+    
+}
+
+.delete2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.delete2:hover{
+    background-color: rgb(200, 0, 0);
+    transition: 0.4s;
+}
+
+.todo-2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+li{
+    width: 250px;
+    height: 30px;
+    border: none;
+    list-style-type: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+
+
+.list-frame-2{
+    width:  286px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+input{
+    border-radius: 10px;
+    width:  282px;
+    height: 38px;
+    border: none;
+}
+
+.add-parent-parent-2{
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.add-parent-2{
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;
+    border-radius: 71px;
+    margin-top: 18px;
+    position: relative;
+    left: 27%;
+    
+}
+
+.add-text-2{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.circle-2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 38px;
+    height: 38px;
+    background-color: #9953F1;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    align-self: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.add-parent-2:hover{
+    background-color: rgb(80, 50, 225);
+    transition: 0.4s;
+}
+.add-parent-2:hover .circle-2{
+    background-color: rgb(103, 83, 241);
+    transition: 0.4s;
+}
+
+.plus-2{
+    position: absolute;
+    left: 14px;
+}
+

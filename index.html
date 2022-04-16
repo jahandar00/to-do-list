@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ex:hover{
+            background-color: #8A49DD;
+            transition: 0.4s;
+            width: 20px;
+            height: 20px;
+        }
+        .ex{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all-parent">
+        <div class="yellow"></div>
+        <div>
+            <p class="todo"> To-Do List</p>
+        </div>
+        <div >
+            <div class="sort-elements">
+                <img class="sortdown" src="images/sortdown.png" alt="sorting">
+                <img class="sortdown-hover" src="images/sortdown-hover.png" alt="sorting">
+                <img class="sortup" src="images/sortup.png" alt="sortup">
+                <img class="sortup-hover" src="images/sortup-hover.png" alt="sortup">
+            </div> 
+        </div>
+        <div class="list-frame">
+            <ul>
+                
+            </ul>
+        </div>
+
+        <div class="add-parent-parent">
+            <button class="add-parent">
+                <p class="add-text">Добавить</p>
+                <div class="circle"><p class="plus">+</p></div>
+            </button>
+        </div>
+
+
+
+        <div class="all-parent-2">
+            <div id="mydivheader">
+                <div>
+                    <img class="delete2" src="images/delete2.png" alt="delete">
+                </div>
+            </div>
+            <div>
+                <p class="todo-2"> To-Do List</p>
+            </div>
+            
+            <div class="list-frame-2">
+                <input type="text" class="input" placeholder="What I'm going to do? ">
+            </div>
+            <span class="tip">this area must be filled</span>
+    
+            <div class="add-parent-parent-2">
+                <button class="add-parent-2">
+                    <p class="add-text-2">Добавить</p>
+                    <div class="circle-2"><p class="plus-2">+</p></div>
+                </button>
+            </div>
+    </div>
+
+    
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
